@@ -1,0 +1,90 @@
+what can be inserted at //insert code here to make object created at  line 5 eligible for garbage collection?
+public static void main (String args[]){ Integer[] arr = new Integer[3]; arr[0] = new integer(&quot;3&quot); //line 5 
+integer x = arr[0];
+//insert code here }
+
+1
+22
+333
+44
+5
+
+what about hashcode and tostring():->
+->ashCode() is a method defined in the Object class,. The hashCode() method returns an integer valueThe primary purpose of the hashCode() method is to provide a numeric representation of an object t
+
+tostring():-> toString() is another method defined in the Object class that provides a string representation of an object. The toString() method is often overridden in custom classes to return a string that represents the state or information of the object.  for debugging, logging, or displaying information about the object to users.If you don't override it, the default implementation provided by the Object class will be used, which returns a string representation in the format getClass().getName() + '@' + Integer.toHexString(hashCode()).default implementation : default implementation provided by the Object class will be used, which returns a string representation in the format getClass().getName() + '@' + Integer.toHexString(hashCode()).
+
+
+
+
+
+
+	public static void main(String[] args) {
+
+		int array[] = { 11, 13, 14, 15, 16,18,19,20};
+		int missingNumber = findmissingNumber(array);
+		System.out.println("missing number is " + missingNumber);
+	
+	}
+
+	
+	
+	public static int findmissingNumber(int[] array)
+	{
+		int missingNumber = 0;
+		for(int i = 1;i<array.length;i++)
+		{
+			if(array[i]+1!=array[i+1])
+			{
+				missingNumber = array[i] + i;
+			}
+			break;
+		}
+		
+		return missingNumber;
+		
+	}
+
+
+
+
+1) connect@deftboxsolutions.com -> java developer fresher
+
+2) hrd@waysandmeanstechnology.com
+3) sara.fathima@labrinthglobalsolutions.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
